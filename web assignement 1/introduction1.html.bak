@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.all-browsers {
+  margin: 0;
+  padding: 5px;
+  background-color:#C0C0C0  ;
+}
+
+.all-browsers > h1, .browser {
+  margin: 10px;
+  padding: 5px;
+}
+
+.browser {
+  background: white;
+}
+
+.browser > h2, p {
+  margin: 4px;
+  font-size: 90%;
+}
+header {
+  text-align: center;
+  padding: 3px;
+  background-color: #16A085;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #16A085;
+  color: white;
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  margin-top:5px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+.topnav-right {
+  float: right;
+}
+
+</style>
+</head>
+<body>
+
+
+<header>
+  <h1>ASAD BASHIR</h1>
+</header>
+
+<article class="all-browsers">
+ <div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="resume1.html">resume</a>
+  <a href="interview1.html">interview1</a>
+  <a href="porfolio1.html">portfolio</a>
+  <a href="goalsandobjectives1.html">Goals And Objectives</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+  <div class="topnav-right">
+    <a href="login-signin.html">Sign In</a>
+    <a href="#about">About</a>
+  </div>
+</div>
+
+  <article class="browser">
+    <h1> ASAD BASHIR</h1>
+
+<img src="as.jpg" alt="asad" width="200" height="250" style="
+float:right">
+
+<p>My name is asad bashir.I passed my intermediate exams from Superior colleg vehari campus.My hobby is to taking pictures in free time.Now I studying BSCS in Comsats Vehari Campus. </p>
+
+<br>
+
+<br>
+
+<br>
+
+<a href="porfolio1.html">portfolio</a><br>
+<br>
+<a href="resume1.html">resume</a><br>
+<br>
+<a href="interview1.html">Interview</a><br>
+<br>
+<a href="goalsandobjectives1.html">Goals And Objectives</a><br>
+<br>
+
+<iframe src="https://www.youtube.com/embed/VOKJGlDR_Yk" height="200" width="300" title="Iframe Example"></iframe>
+<br>
+  </article>
+ 
+ 
+   <div class="smart-wrap">
+        <div class="smart-forms smart-container wrap-3">
+            <div class="form-header header-blue">
+                <h4><i class="fa fa-comments"></i> Please comment </h4>
+            </div>
+            <form method="post" action="/" id="comment2">
+                <div class="form-body theme-blue">
+                    <div class="section">
+                        <label class="field prepend-icon">
+                            <input type="text" name="names" id="names" class="gui-input" placeholder="Enter name...">
+                            <span class="field-icon"><i class="fa fa-user"></i></span>
+                        </label>
+                    </div>
+                    <div class="section">
+                        <label class="field prepend-icon">
+                            <input type="email" name="email" id="email" class="gui-input" placeholder="Enter Email...">
+                            <span class="field-icon"><i class="fa fa-envelope"></i></span>
+                        </label>
+                    </div>
+                   
+                    <div class="section">
+                        <label class="field prepend-icon">
+                            <textarea class="gui-textarea" id="comment" name="comment" placeholder="Enter message..."></textarea>
+                            <span class="field-icon"><i class="fa fa-comments"></i></span>
+                            <span class="input-hint">
+                               
+                               
+                            </span>
+                        </label>
+                    </div>
+                    <div class="section">
+                        <label class="option option-blue">
+                            <input type="checkbox" name="check1">
+                            <span class="checkbox"></span> Notify me with comment updates
+                        </label>
+                    </div>
+                    <div class="spacer-b30">
+              
+                    </div>
+                    <div class="section">
+                        <span class="rating block">
+                            <span class="lbl-text">Rate this article</span>
+                            <input class="rating-input" id="five-stars" type="radio" name="article-rate">
+                            <label class="rating-star" for="five-stars"><i class="fa fa-star"></i></label>
+                            <input class="rating-input" id="four-stars" type="radio" name="article-rate">
+                            <label class="rating-star" for="four-stars"><i class="fa fa-star"></i></label>
+                            <input class="rating-input" id="three-stars" type="radio" name="article-rate" checked>
+                            <label class="rating-star" for="three-stars"><i class="fa fa-star"></i></label>
+                            <input class="rating-input" id="two-stars" type="radio" name="article-rate">
+                            <label class="rating-star" for="two-stars"><i class="fa fa-star"></i></label>
+                            <input class="rating-input" id="one-star" type="radio" name="article-rate">
+                            <label class="rating-star" for="one-star"><i class="fa fa-star"></i></label>
+                        </span>
+                    </div>
+                </div>
+                <div class="form-footer">
+                    <button type="submit" class="button btn-blue">Post Comment</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div></div>
+
+ 
+ 
+</article>
+
+<footer>
+  <p>NAME: ASAD BASHIR<br>
+  <p>ASAD: asadbashir19832@gmail.com<br>
+  <p>updated: 22-05-2021<br>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.all-browsers {
+  margin: 50px;
+  padding: 5px;
+  background-color: lightgray;
+}
+
+.all-browsers > h1, .browser {
+  margin: 10px;
+  padding: 5px;
+}
+
+.browser {
+  background: white;
+}
+
+.browser > h2, p {
+  margin: 4px;
+  font-size: 90%;
+}
+header {
+  text-align: center;
+  padding: 3px;
+  background-color: #16A085;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #16A085;
+  color: white;
+}
+h2{
+font-size:25px;
+}
+
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  margin-top:5PX;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+</style>
+</head>
+<body>
+
+
+<header>
+  <h1>	Resume</h1>
+</header>
+ <div class="topnav" id="myTopnav">
+  <a href="introduction1.html" class="active">Home</a>
+  <a href="resume1.html">resume</a>
+  <a href="interview1.html">interview1</a>
+  <a href="goalsandobjectives1.html">Goals And Objectives</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<article class="all-browsers">
+ 
+  <article class="browser">
+    <div id="header"></div>
+<div class="left"></div>
+<div class="stuff">
+  <br><br>
+  <h2>Resume</h2>
+  <img src="as.jpg" alt="asad" width="200" height="250" style="
+float:right",>
+  <hr />
+  <br>
+  <p class="head">Interests</p>
+  <ul>
+    <li>Drawing</li>
+    <li>Photography</li>
+    <li>Design</li>
+    <li>Programming</li>
+    <li>Computer Science</li>
+  </ul>
+  <p class="head">Skills</p>
+  <ul>
+    <li>Web Design with HTML & CSS</li>
+    <li>visual c#</li>
+    <li>Mobile application Development</li>
+  </ul>
+  <p class="head">Education</p>
+  <ul>
+    <a href="http://www.wiltonhighschool.org/pages/Wilton_High_School">
+      <li>Comsats University Vehari</li>
+    </a>
+    <!--Link-->
+    <a href="http://vehari.comsats.edu.pk/">
+      <li>Model High School</li>
+    </a>
+    <li>Codeacademy</li>
+  </ul>
+  <p class="head">Experience</p>
+  <ul>
+    <li>Student Technology Intern for Wilton School District</li>
+    <li>Babysitter</li>
+  </ul>
+  <p class="head">Extracurriculars</p>
+  <ul>
+    <li>Recycling Club</li>
+    <li>Gardening Club</li>
+    <li>Book Club</li>
+     <li>Taking pictures</li>
+  </ul>
+  </article>
+ 
+ 
+</article>
+
+<footer>
+  <p>NAME: ASAD BASHIR<br>
+  <p>ASAD: asadbashir19832@gmail.com<br>
+  <p>updated: 22-05-2021<br>
+</footer>
+
+</body>
+</html>
